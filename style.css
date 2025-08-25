@@ -1,0 +1,211 @@
+
+        body {
+            margin: 0;
+            font-family: "Roboto", serif;
+        }
+        .header {
+            background-color: #0171f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px
+        }
+        .logo{
+           width: 100px;
+        }
+        .header-link a {
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+        .header-link a:hover {
+            background-color: #2386fe
+        }
+        .btn {
+            background-color: #ee626b;
+            border-radius: 18px;
+            padding: 7px 15px;
+            color: #ffffff;
+            border: none;
+
+        }
+        .header-link button {
+            background-color: #ee626b;
+            border-radius: 15px;
+            padding: 7px 15px;
+            color: #ffffff;
+            border: none;
+        }
+        .btn:hover {
+         background-color: #f2858c;
+        }
+        .landing-page {
+            background-color: #0171f9;
+            display: flex;
+            color: #ffffff;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0 0 50px 50px ;
+            padding: 25px 50px
+            
+        }
+        .landing-page-left-section{
+            width: 400px;
+        }
+        .landing-page-search input {
+            border-radius: 50px ;
+            border: none;
+            outline: none;
+            height: 30px;
+            padding: 0 10px;
+        }
+        .landing-page-search button {
+            position: absolute;
+            left: 200px;
+            height: 30px;
+        }
+        .landing-page-img-container img {
+            border-radius: 20px;
+            width: 250px;
+        }
+
+
+        .treding-container{
+            padding:25px 50px
+        }
+        .treding-container span {
+            color: #ee626b;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .trending-header{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .trending-header button{
+            background-color: #ee626b;
+            border-radius: 15px 20px;
+            padding:15px 30px;
+            color: #ffffff;
+            border:none;
+        
+        }
+        .trending-header h1 {
+            margin-top: 0;
+        }
+        .trending-cards {
+            display: flex;
+            gap: 12px;
+        }
+       .card {
+           width: 300px;;
+           background-color:#EEEEEE;
+           border-radius: 20px;
+        }
+        .card .thumb{
+            border-radius:20px 20px 0 0 ;
+        }
+        .card-info{
+            display:flex ;
+            justify-content:space-between ;
+            align-items: center;
+            padding: 10PX 25PX;
+           
+        }
+
+        .card-info img {
+            width: 50px;
+        }
+/*
+*/
+        
+        .card-container{
+            padding: 5px 5px
+        }
+        .most-container span {
+            color: #ee626b;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .mostheader {
+            display:flex;
+            padding-bottom: 40px;
+            align-items: center;
+            justify-content: space-between
+            
+        }
+            
+       
+        .mostheader h1 {
+        margin-top: 0 ;
+        }
+       
+        .card-container {
+            width: px;
+
+           }
+            
+           .most-cards {
+           
+            background-color:#EEEEEE;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between ;
+         }
+         .most-cards .thumb{
+            border-radius: 20px 20px 20px 20px ;
+         }
+        
+        .most-container button {
+            background-color: #ee626b;
+            border-radius: 15px 20px;
+            padding:15px 30px;
+            color: #ffffff;
+            border:none;
+        }
+
+        .header-most {
+            background-color: #EEEEEE;
+            margin-top: 200px;
+            border-radius: 100px;
+            padding: 50px;
+            
+        }
+
+        .card-infoMOST {
+            justify-content: space-between ;
+            align-items: center;
+            padding: 10PX 25PX;
+        }
+        
+       
+        
+       
+
+        /* .trending-cards {
+            display: flex;
+            gap: 12px;
+        }
+        .card {
+           width: 300px;
+           background-color: #EEEEEE;
+           border-radius: 20PX;
+        }
+        .card .thumb{
+            border-radius: 20px 20px 0 0;
+        }
+        .card-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5PX 25PX;
+           
+        }
+
+        .card-info img {
+            width: 50px;
+        }
+            */
+        
